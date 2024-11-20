@@ -1,0 +1,105 @@
+h2 {
+    color: aqua;
+    font-style: normal;
+}
+#maintitle{
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#maintitle::selection{
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.info{
+    color: aquamarine;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bla{
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    width: 49%;
+}
+
+html{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9eOlOfJr7LYCZ5WdEytXfcv5oa6cclx0KCA&s);
+}
+
+header {
+    position: fixed;
+    background-image: url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_1280.jpg);
+    background-size: contain;
+    background-repeat: repeat-x;
+    width: 100%;
+    height: 100px;
+    background-color: rgba(rgb(126, 7, 7), rgb(140, 156, 140), rgb(0, 255, 76), alpha);
+    margin-bottom: 20px;
+    border: 5px solid black;
+    padding: 10px;
+    background-clip: content-box;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    color: aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    margin-right: 300px;
+}
+
+.box1{
+    background-color: aquamarine;
+    padding: 10px;
+    border-width: 10px;
+    border-style: dotted;
+    border-color: blueviolet;
+    border-radius: 50%; 
+    bottom: 150px;
+    position: relative;
+}
+
+.box2{
+    background-color: blue;
+    border-radius: 5px;
+    border-top: 10px;
+    border-style: inset;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+.box3{
+    background-color: red;
+    border-width: 10px;
+    border-style: solid;
+    border-color: white;
+    margin-top: 60px;
+}
+
+button:hover{
+    color: red;
+    background-color: blue;
+}
+
+button:active{
+    color: black;
+    background-color: aqua;
+}
+
+#feet{
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    background-color: red;
+    color: black;
+    bottom: 0;
+    right: 0;
+    align-self: center;
+}
